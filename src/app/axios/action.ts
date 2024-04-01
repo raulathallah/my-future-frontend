@@ -15,3 +15,8 @@ export const deleteAction = async (id: string) => {
   const response = await axios.delete(baseURL + `/api/action/delete/${id}`);
   return response;
 };
+
+export const editAction = async (id: string, body: ActionBody) => {
+  const response = await axios.put(baseURL + `/api/action/update/${id}`, body);
+  return response;
+};
