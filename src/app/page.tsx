@@ -23,7 +23,6 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import Pagination from "react-bootstrap/Pagination";
 import {
   createAction,
   deleteAction,
